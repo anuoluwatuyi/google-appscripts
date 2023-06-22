@@ -2,11 +2,11 @@ function updateloandata() {
 
   // destination spreadsheet
   var destinationSpreadSheet = SpreadsheetApp.getActiveSpreadsheet();
-  var destSheet = destinationSpreadSheet.getSheetByName('loandata');
+  var destSheet = destinationSpreadSheet.getSheetByName('rawdata');
 
   //source spreadsheet
   var sourceSpreadSheet = SpreadsheetApp.openById('1lplmZe2IC_E3i9kP8qLakV_C35wnHZ-25BC4bDuBwHE');
-  var srcSheet = sourceSpreadSheet.getSheetByName('loandata');
+  var srcSheet = sourceSpreadSheet.getSheetByName('rawdata');
   var lastRow = srcSheet.getLastRow();
 
   var rangenotation = 'loandata!A1:Q'+lastRow
