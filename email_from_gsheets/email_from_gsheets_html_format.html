@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <div dir="ltr">Dear <strong> <?= driverName ?></strong>,</div>
+    <div>
+        <br>
+    </div>
+    <div>
+      
+      <p style="color:red;font-weight:bold;">Your DRN is <?= DRN ?>.</p>
+      <p style="color:red;font-weight:bold;">For the week of <?= paymentPeriod ?>, your total outstanding is <?= cummOutstanding ?>.</p>
+      <p style="color:#008080;font-weight:bold;">To make payment, use this link:<a href="https://remitcash.moove.africa"> https://remitcash.moove.africa</a></p>
+      <p>Please find below the breakdown of your activities and remittance for the week</p>
+    </div>
+    <div>
+        <table cellspacing="0" cellpadding="0" dir="ltr" style="table-layout:fixed;font-size:10pt;font-family:Arialwidth:0px">
+            <colgroup>
+                <col width="50">
+                    <col width="368">
+                        <col width="144">
+                            <col width="16">
+            </colgroup>
+            <tbody>
+                <tr style="height:21px">
+                    <td style="border-top:1px solid rgb(0,0,0);border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-top:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-top:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-top:1px solid rgb(0,0,0);border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                  <td rowspan="1" colspan="4" style="border-right:1px solid rgb(0,0,0);border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom;text-align:center;overflow:hidden;padding:2px 3px;vertical-align:bottom"><img src="https://drive.google.com/uc?export=download&id=19jUVnzY233saYhOdyhlmoSVIQ1cvK6s8" alt="Moove|Uber Logo.png" width="170" height="22"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td rowspan="1" colspan="4" style="border-right:1px solid rgb(0,0,0);border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom;font-weight:bold">Payment Statement for Period: <?= paymentPeriod ?></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom;font-weight:bold">Driver Name</td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom;font-weight:bold"><?= driverName ?></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom;font-weight:bold">DRN</td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom;font-weight:bold"><?= DRN ?></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td rowspan="1" colspan="4" style="border-right:1px solid rgb(0,0,0);border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom;font-weight:bold">Performance Summmary</td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom">Trips</td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"><?= Trips ?></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom">Hours</td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"><?= Hours ?></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:8px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td rowspan="1" colspan="4" style="border-right:1px solid rgb(0,0,0);border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom;font-weight:bold">Remittance Summary</td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom;font-weight:bold">Weekly Payment</td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom;font-weight:bold"><?= amountDue ?></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom">Cashless payments (VA &amp; POS)</td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"><?= cashlessPayments ?></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom">Uber Balance</td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"><?= uberBalance ?></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom">Previous Cumulative Outstanding</td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"><?= prevOutstanding ?></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom;font-weight:bold">Cash to remit</td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom;font-weight:bold"><?= cummOutstanding ?></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-right:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+                <tr style="height:21px">
+                    <td style="border-bottom:1px solid rgb(0,0,0);border-left:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-bottom:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-bottom:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                    <td style="border-right:1px solid rgb(0,0,0);border-bottom:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom"></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>You are currently being charged on Moove's <?= Product ?> Product.</p>
+    </div>
+    <div>
+        <br>
+    </div>
+    <div>Please contact us for further details or assistance.</div>
+    
+  </body>
+</html>
