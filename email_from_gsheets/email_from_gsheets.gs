@@ -1,4 +1,4 @@
-const adviceSheet = SpreadsheetApp.openById("1_RgXPQeb6mQWNNs15IIIZbHJDqq9iOW2ysMpiTV7Y4A").getSheetByName("advice").activate()
+const adviceSheet = SpreadsheetApp.openById("SHEED ID").getSheetByName("advice").activate()
 
 const htmlTemplate = HtmlService.createTemplateFromFile("template.html");
 
